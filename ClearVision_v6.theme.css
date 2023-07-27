@@ -4,19 +4,19 @@
  * @version 6.3.0
  * @description Highly customizable theme for BetterDiscord.
  * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://clearvision.github.io
+ * @website https://clearvision.gitlab.io
  * @invite dHaSxn3
  */
 
 /* Credits to Zerthox for making the original theme. */
 
 /* IMPORT CSS */
-@import url(https://clearvision.github.io/ClearVision-v6/main.css);
+@import url(https://clearvision.gitlab.io/v6/main.css);
 
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #2780e6; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --main-color: #D57fff; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
@@ -30,7 +30,7 @@
   --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
 
   /* GENERAL */
-  --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
+  --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
   --text-normal: rgb(220, 221, 222); /* color of default discord text */
   --text-muted: rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
@@ -38,23 +38,23 @@
   --members-width: 240px; /* member list width [default: 240px] */
 
   /* APP BACKGROUND */
-  --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
+  --background-shading: 70%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url(https://i.ibb.co/m9k8LSN/potentialbg.png); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
   --background-attachment: fixed; /* app background attachment [default: fixed] */
   --background-brightness: 100%; /* app background brightness (< 100% for darken, > 100% for lighten) [default: 100%] */
   --background-contrast: 100%; /* app background contrast [default: 100%] */
-  --background-saturation: 100%; /* app background saturation [default: 100%] */
+  --background-saturation: 160%; /* app background saturation [default: 100%] */
   --background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
   --background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
   --background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
   --background-blur: 0px; /* app background blur [default: 0px] */
 
   /* HOME BUTTON ICON */
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-icon: url(https://clearvision.gitlab.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
   --home-position: center; /* home button icon position [default: center] */
   --home-size: 40px; /* home button icon size [default: 40px] */
 
@@ -62,7 +62,7 @@
   --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
   --channel-color: rgba(255, 255, 255, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
   --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
-  --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
+  --muted-color: rgba(255, 255, 255, 0.3); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
 
   /* MODAL BACKDROP */
   --backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
@@ -113,3 +113,4 @@
   --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
   --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
 }
+
